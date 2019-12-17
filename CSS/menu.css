@@ -1,0 +1,48 @@
+*{margin: 0; padding: 0;}
+
+ul.navbar-nav.mr-auto.mt-2.mt-lg-0.list-menu .nav-item {
+    margin-left: 0px;
+}
+/* css for .menu*/
+@font-face{
+    src:fonts/Lato-Regular.ttf;
+    font-family:lato-r;
+}
+@font-face {
+    src:fonts/Lato-Light.ttf;
+    font-family:lato-l;
+}
+@font-face {
+    src:fonts/Lato-Bold.ttf;
+    font-family:lato-b;
+}
+
+a.nav-link {
+    color: black;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-family: lato-r;
+}
+
+li.nav-item {
+    list-style: none;
+    padding: 23px 73px 0 65px;
+    height: 88px;
+    margin-right: 0px !important;
+    margin-top: -32px;
+}
+li.nav-item:hover{
+    background-color: gray;
+}
+nav.navbar.navbar-expand.navbar-light.bg-faded.thanh-menu {
+    list-style: none;
+    height: 88px;
+    background-color:white;
+}
+.container-fluid.div-menu {
+    margin: 0;
+    padding: 0px;
+} 
+
+
+
